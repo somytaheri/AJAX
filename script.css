@@ -4,6 +4,9 @@ body {
 	font-size: 20px;
 	font-family: "Lucida Grande", Verdana, Arial, Helvetica, sans-serif;
 }
+h1, p {
+	margin: 15px;
+}
 
 
 li a {
@@ -17,10 +20,12 @@ li {
 #previewWin {
 	position: absolute;
 	width: 200px;
-	height: 200px;
+	height: 300px;
+	padding: 15px;
 	background-color: aqua;
 	font-size: 0.6em;
 	visibility: hidden;
 	overflow: hidden;
 }
+
 
